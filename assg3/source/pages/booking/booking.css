@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    background-color: #E4DBD2;
+}
+
+.bg {
+    background: url("../../res/img.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    padding-bottom: 1vh;
+}
+
+.overlay {
+    z-index: 0;
+    background-color: aliceblue;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 101vh;
+}
+
+p {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-size: 5vh;
+}
+
+span {
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 3vh;
+    font-style: normal;
+}
+
+.card {
+    width: 10vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+a:visited, a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+
+a:hover, a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+.content {
+    z-index: 1;
+    padding-bottom: 2vh;
+}
+
+.spacer {
+    padding-top: 3vh;
+}
+
+.section__container {
+    height: fit-content;
+    border-radius: 20px;
+    width: 40vw;
+    background-color: rgba(190, 195, 197, 0.5);
+    inset: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.navlinks {
+    inset: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a[href="#"] {
+    text-decoration: underline 0.15em rgba(0, 0, 0, 1);
+}
+
+.section__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vw;
+    row-gap: 10vh;
+    padding: 2vw;
+    justify-content: space-around;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    inset: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div > input {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: "DM Sans";
+    font-size: large;
+    height: 5vh;
+    width: 30vh;
+    border-radius: 4px;
+    border: 1px transparent;
+    transition: border 300ms;
+}
+
+
+input[type="date"]::-webkit-datetime-edit {
+    padding: 2em;
+    font-family: "DM Sans";
+    font-size: large;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    padding: 1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.row {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+.btn {
+    justify-content: space-around;
+}
+
+input[type="submit"], input[type="reset"] {
+    border: 1px groove grey
+}

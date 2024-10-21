@@ -1,0 +1,91 @@
+img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+.section__graphic {
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    overflow: hidden;
+}
+.section__graphic2 {
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2vh;
+}
+
+.header {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 0;
+}
+.section__content {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 2rem;
+}
+
+p {
+    margin-top: 2vh;
+    text-align: justify;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.info__section {
+    width: 50vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    gap: 3rem;
+    row-gap: 1rem;
+}
+
+.info__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;    
+    display: flex;
+    gap: 4vw;
+}
+
+li {
+    width: 10vw;
+}
+
+.button {
+    background-color: rgb(175, 41, 43);
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 2vh 1vw;
+    text-align: center;
+}

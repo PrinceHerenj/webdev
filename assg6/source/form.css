@@ -1,0 +1,44 @@
+body {
+    background-image: url('res/pexels-manuel-schlichter-753068368-28550486.jpg'); background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.form-group input, .form-group select {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.form-group button:hover {
+    background: #4cae4c;
+}

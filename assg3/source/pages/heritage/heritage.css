@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    background-color: #E4DBD2;
+}
+
+.bg {
+    background: url("../../res/img.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    padding-bottom: 1vh;
+}
+
+.overlay {
+    z-index: 0;
+    background-color: aliceblue;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 101vh;
+}
+
+p {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-size: 5vh;
+}
+
+span {
+    font-family: "DM Sans";
+    font-weight: 300;
+    font-size: 3vh;
+    font-style: normal;
+}
+
+
+a:visited, a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    transition: text-decoration-color 300ms;
+}
+
+a:hover, a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+.card > a:visited, .card > a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline 0.09em rgba(0, 0, 0, 0);
+        transition: text-decoration-color 300ms;
+}
+
+.card > a:hover, .card > a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+.content {
+    z-index: 1;
+    padding-bottom: 2vh;
+}
+
+.spacer {
+    padding-top: 3vh;
+}
+
+.section__container {
+    height: fit-content;
+    border-radius: 20px;
+    width: 80vw;
+    background-color: rgba(190, 195, 197, 0.5);
+    inset: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navlinks {
+    inset: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a[href="#"] {
+    text-decoration: underline 0.15em rgba(0, 0, 0, 1);
+}
+
+.section__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    row-gap: 5vh;
+    padding: 2vw;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.card {
+    width: 13.5vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.card img {
+    z-index: 2;
+    border-radius: 10px;
+    height: 25vh;
+    width: 13.5vw;
+    object-fit: cover;
+}

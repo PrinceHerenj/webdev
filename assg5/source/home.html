@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&?family=DM+Serif+Text:ital@0;1&display=swap');
+        body {
+            background-color: #FEFAE0;
+        }
+        h2 {
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 2em;
+            text-align: center;
+        }
+        h3 {
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1.7em;
+            text-align: center;
+            text-decoration: underline 0.07em grey;
+        }
+        .section__content {
+            inset: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60vw;
+            height: fit-content;
+        }
+        .section__body {
+            background-color: #C0C78C;
+            width: 40vw;
+            height: fit-content;
+            padding: 1vw;
+            border-radius: 10px;
+        }
+        .spacer {
+            padding-top: 3vh;
+        }
+        
+        span {
+            font-family: "DM Serif Text";
+            font-weight: 400;
+            font-size: 1.5em;
+        }
+
+        .row {
+            inset: 0;
+            margin: auto;
+            width: 90vw;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+        }
+        .card {
+            width: fit-content;
+            height: fit-content;
+            object-fit: fill;
+        }
+        .card > img {
+            border-radius: 10px;
+            width: 40vw;
+            box-shadow: 1px 1px grey;
+        }
+
+        .root__container {
+            background-color: #A6B37D;
+            margin: 2vw;
+            border-radius: 10px;
+            height: 90vh;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="root__container">
+        <div class="section__content">
+            <h2>Welcome to CampusEvents!</h2>
+        </div>
+        <div class="spacer"></div>
+        <div class="row">
+            <div class="card">
+                <img src="res/NIT_W2_7176.jpg">
+            </div>
+            <div class="section__body">
+                <h3>Discover, Register, Participate.</h3>
+                <span>Stay up-to-date with all campus events, from academic conferences to cultural fests. Our all-in-one platform makes it easy to find, register for, and participate in events that align with your interests.</span><br>
+                <span>Key Features:</span>
+                <ul>
+                    <li>
+                        <span>
+                            Comprehensive Event List: View upcoming events, past events, and event details.
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            Easy Registration: Sign up for events with just a few clicks using your NIT Warangal credentials.
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            Community Engagement: Connect with fellow students and event organizers.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

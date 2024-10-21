@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Header</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&?family=DM+Serif+Text:ital@0;1&display=swap');
+        body {
+            background-color: #FEFAE0;
+        }
+        h2 {
+            font-family: "Lora";
+            font-weight: 400;
+            font-style: normal;
+            font-size: 2em;
+            text-align: center;
+        }
+        .section__header {
+            margin-left: 20vw;
+            margin-right: 20vw;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .navlinks {
+            margin-left: 20vw;
+            margin-right: 20vw;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            background-color: #B99470;
+            border-radius: 10px;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+        }
+        div > img {
+            width: 7vw;
+        }
+        .spacer {
+            padding-top: 3vh;
+        }
+        span {
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-size: 1.5em;
+        }
+
+        a:active {
+            color: black;
+            text-decoration: underline 0.05em black;
+        }
+
+        a:link, a:hover, a:visited {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="section__header">
+        <img src="res/National_Institute_of_Technology,_Warangal_logo.png">
+        <h2>National Institute of Technology, Warangal</h2>
+    </div>
+    <div class="spacer"></div>
+    <div class="navlinks">
+        <span><a href="home.html" target="below">Home</a></span>
+        <span><a href="events.html" target="below">Events</a></span>
+        <span><a href="register.html" target="below">Register</a></span>
+        <span><a href="contact_us.html" target="below">Contact Us</a></span>
+    </div>
+    <div class="spacer"></div>
+</body>
+</html>

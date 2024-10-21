@@ -1,0 +1,72 @@
+body {
+    font-size: 1.1rem
+}
+
+hr {
+    color: gainsboro;
+}
+
+
+.container {
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 73vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.image__container {
+    width: 40vw;
+    overflow: hidden;
+}
+
+img {
+    width: 40vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.content__fit {
+    width: 30vw;
+    padding: 1rem;
+}
+
+.heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.info__row {
+    color: gray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.text {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    height: 30vh;
+}
+
+.text > span {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.content__full {
+    margin: 1vh auto;
+    width: 73vw;
+    height: fit-content;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5rem;
+}
+
+.content__full > span {
+    text-align: justify;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #FEFAE0;
+        }
+
+        form {
+            background-color: #A6B37D;
+            border-radius: 10px;
+            padding: 2rem 0rem;
+        }
+        .section__content {
+            inset: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50vw;
+            height: fit-content;
+        }
+        
+        span {
+            font-family: "Playfair Display";
+            font-weight: 400;
+            font-size: 1.3em;
+        }
+        .column {
+            display: flex;
+            flex-flow: column;
+            gap: 2vh;
+        }
+        .row {
+            inset: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-between;
+            width: 45vw;
+        }
+        .btn_row {
+            inset: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: space-around;
+            width: 15vw;
+        }
+        input {
+            padding: 0.7vw 2vh;
+            font-family: "Playfair Display";
+            font-size: large;
+            border: 1px transparent;
+            border-radius: 5px;
+        }
+        input[type="submit"], input[type="reset"] {
+            padding: 0.7vw 2vh;
+            border: 1px transparent;
+            border-radius: 10px;
+        }
+        textarea {
+            border: 1px transparent;
+            border-radius: 5px;
+            font-family: "Playfair Display";
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="section__content">
+        <form action="#">
+            <div class="column">
+                <div class="row">
+                    <span>Name </span><input type="text" name="name" id="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="row">
+                    <span>Email </span><input type="text" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="row">
+                    <span>Subject </span><input type="text" name="sbj" id="sbj" placeholder="Enter subject" required>
+                </div>
+                <div class="row">
+                    <span>Message</span>
+                    <textarea cols="60" rows="10" placeholder="Enter your message" required></textarea>
+                </div>
+                <div class="btn_row">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
